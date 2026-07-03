@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <title>Spark 13</title>
+
+    <!-- Home Screen icon (iOS) -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="/favicon-32.png" />
+    <!-- PWA manifest (Android "Add to Home Screen" icon) -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Makes it launch full-screen (no Safari address bar) when added to Home Screen on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Spark 13" />
+    <meta name="theme-color" content="#2563EB" />
+  </head>
+  <body style="margin:0;padding:0;overscroll-behavior:none;">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
